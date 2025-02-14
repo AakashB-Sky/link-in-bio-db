@@ -1,9 +1,3 @@
-/* The following lines add red dashed border around all elements
-* {
-    border: 1px red dashed; 
-  }
-*/
-
 html {
   min-height: 100%; /* makes body entire height of window regardless of how tall content is */
 }

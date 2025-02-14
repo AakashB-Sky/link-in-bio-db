@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ /* The following lines add red dashed border around all elements
+* {
+    border: 1px red dashed; 
+  }
+*/
+
+
