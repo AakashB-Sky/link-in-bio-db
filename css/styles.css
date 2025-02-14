@@ -1,0 +1,77 @@
+/* The following lines add red dashed border around all elements
+* {
+    border: 1px red dashed; 
+  }
+*/
+
+html {
+  min-height: 100%; /* makes body entire height of window regardless of how tall content is */
+}
+
+body {
+  padding: 40px 0px;
+  min-height: 100%; /* makes body entire height of window regardless of how tall content is */
+  background: linear-gradient(180deg, #21077e, #2f067e, #3c067d, #47067a, #530776, #5d0770, #670869, #710962); /* made at https://learnui.design/tools/gradient-generator.html */
+  color: rgba(218, 251, 253, 1);
+  font-family: "Cabin";
+}
+
+a {
+  color: rgba(226, 199, 54, 1);
+  text-decoration: none; /* removes underlines from hyperlinks */
+}
+
+.main-container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.avatar-image {
+  width: 128px;
+  height: 128px;
+  border-radius: 128px; /*rounds corners*/
+  object-fit: cover; /*preserves original aspect ratio*/ 
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.image-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-row {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.social-icons-row {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.item {
+  background-color: rgba(255, 40, 0, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px; /* adding additional 48px of padding to account for thumbnail pixel */
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1; /* makes element expand to occupy all available space in its parent */
+}

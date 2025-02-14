@@ -1,1 +1,12 @@
-<h1> Hello, world! </h1>
+<div class="main-container"> <!-- contains all of the page's content -->
+
+  <div class="links-row">
+
+    <% @list_of_items.each do |the_item| %>
+      <div class="item">
+        <a href="<%= the_item.link_url %>">
+          <%= the_item.link_description %>
+      </div>
+    <% end %>
+  </div> <!-- end links-row -->
+</div> <!-- end main container -->

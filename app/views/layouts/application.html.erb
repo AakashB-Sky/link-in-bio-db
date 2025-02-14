@@ -2,12 +2,22 @@
 <html>
   <head>
     <title>Link-in-bio</title>
+    <meta charset="UTF-8"> <!--this tag expands which characters we can use in our HTML document (other languages, emojis, etc.)-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <!-- Web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script> <!-- pulls special web font called 'Font Awesome'-->
+    <!-- End web fonts -->
+    <title>Meet Aakash!</title>
+    <link href="css/styles.css" rel="stylesheet">
   </head>
 
   <body>
